@@ -33,3 +33,4 @@ const countDownTimer = function (_class, date) {
   timer = setInterval(showRemaining, 1000); //1초에 한번 갱신
 };
 countDownTimer(clockTitle, "12/24/2022 06:00 PM");
+//참고 파일: https://goddaehee.tistory.com/229
