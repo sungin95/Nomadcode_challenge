@@ -1,0 +1,19 @@
+.photo_artist{
+  border-radius: 50%;
+  object-fit: contain;
+  width: 30%;
+  margin: 15%;
+}
+.photo_playlist {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  border-radius: 15px;
+  padding: 10px 0px;
+}
+.photo_main {
+  object-fit: contain;
+  width: 60%;
+  margin: 15%;
+  border-radius: 20px;
+}

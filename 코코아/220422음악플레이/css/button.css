@@ -1,0 +1,32 @@
+.button {
+  width: 78vw;
+  margin: 7% 0px;
+}
+.button_black {
+  background-color: black;
+  color: white;
+}
+.botton_good {
+  background-color: white;
+  color: black;
+  border: 0.5px solid rgba(0,0,0,0.5);
+}
+.botton_width {
+  width: 40%;
+  height: 40px;
+  padding: 1% 1%;
+  border-radius: 1000px;
+}
+.playButton_blackBox {
+  display: flex;
+  background-color: black;
+  width: 78vw;
+  height: 10vh;
+  border-radius: 1000px;
+  position: fixed;
+  top: 89vh;
+}
+.jc {
+  display: flex;
+  justify-content: end;
+}
