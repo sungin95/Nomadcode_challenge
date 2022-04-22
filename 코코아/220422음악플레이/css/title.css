@@ -17,3 +17,12 @@
 .white{
   color: white;
 }
+.fa-2xl {
+  font-size: 4em;
+
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}

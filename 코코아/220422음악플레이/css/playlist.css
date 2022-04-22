@@ -1,12 +1,12 @@
 .playlist {
   position: absolute;
-  top: 55vh;
+  top: 430px;
 }
 .playlist_music {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 78vw;
+  width: 390px;
   border: 1px solid black;
   border-radius: 10px;
 

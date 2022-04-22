@@ -1,8 +1,8 @@
 .photo_artist{
   border-radius: 50%;
   object-fit: contain;
-  width: 30%;
-  margin: 15%;
+  width: 100px;
+  margin: 30px;
 }
 .photo_playlist {
   width: 65px;
@@ -16,4 +16,14 @@
   width: 60%;
   margin: 15%;
   border-radius: 20px;
+}
+.photo_click {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-color: rgba(0,0,0,0.3);
+  left: 5px;
+}
+.photo_clicked {
+  position: relative;
 }

@@ -2,14 +2,17 @@
 @import "title.css";
 @import "button.css";
 @import "playlist.css";
-@import "play_button.css";
+@import "animation.css";
+@import "click.css";
+
 body {
-  padding: 5vh 10vw;
-  width: 74vw;
-  height: 120vh;
+  padding: 50px 50px;
+  width: 400px;
+  height: 1600px;
   border: 1px solid black;
   border-radius: 25px;
-
+  margin: auto;
+  background-color: antiquewhite;
 }
 .display_hidden {
   display: none;
@@ -24,26 +27,25 @@ body {
   margin: 0px 15px ;
 }
 .background {
-  height: 45vh;
+  display: block;
+
   background-color: white;
-  position: fixed;
-  width: 80vw;
-  z-index: 2;
+
 }
-.background_down{
-  height: 5vh;
-  background-color: white;
-  position: fixed;
-  width: 80vw;
-  z-index: 2;
-  bottom: -1px;
+.shadow {
+  box-shadow: 1px 10px 10px #afdcec;
+}
+.shadow_red {
+  box-shadow: 1px 3px 10px #f9533977;
+}
+.shadow_black {
+  box-shadow: 1px 5px 10px rgb(0, 0, 0);
 }
 
 .label {
   cursor: pointer;
   color: red;
 }
-
 .f {
   display: flex;
 }
@@ -54,11 +56,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+.a_i {
+  align-items: center;
+}
+.d_f{
+  flex-direction: column;
+}
 .fix {
   position: fixed;
-  width: 80vw;
+  width: 400px;
   z-index: 3;
-  height: 45vh;
+  height: 450px;
 }
 .width1 {
   width: 75px;
@@ -69,7 +77,12 @@ body {
 .width3 {
   width: 40%;
 }
-
+.width4 {
+  width: 90%;
+}
+.margin100 {
+  margin: 100px 0px;
+}
 /*https://musicmeta-phinf.pstatic.net/album/007/385/7385585.jpg?type=r360Fll&v=20220405155416
 톰보이 메인사진
 https://musicmeta-phinf.pstatic.net/artist/003/657/3657600.jpg?type=ff300_300&v=20220312100808

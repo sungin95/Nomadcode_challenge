@@ -10,38 +10,43 @@
 </head>
 
 <body class="body">
-  <div class="background"></div>
+  <div class="background">
+  
   <top-bar class="fix">
     <head_icon class="f s_b fix">
       <i class="fas fa-arrow-left fa-lg"></i>
-      <i class="fas fa-search fa-lg"></i>
+      <div class="m_15"><i class="fas fa-ellipsis-v fa-lg"></i></div>
     </head_icon>
     <head_photer class="f c">
-      <img class="photo_main"
+      <img class="photo_main shadow"
         src="https://musicmeta-phinf.pstatic.net/album/004/883/4883637.jpg?type=r360Fll&v=202204222311">
     </head_photer>
     <artist_name>
       <div class="title title_big">숲의 아이</div>
       <div class="title title_sub">유아(오마이걸)</div>
     </artist_name>
-   
+    <form class="f c d_f margin100">
+      <div class="time gray">
+        <div>1:56</div>
+        <div>2:21</div>
+      </div>
+      <input required id="happy" type="range" min="0" max="10" value="6" class="width4">
+  </form>
+  <div class="f s_b a_i ">
+    <i class="fas fa-sync fa-lg gray"></i>
+    <i class="fas fa-step-backward fa-lg"></i>
+    <i class="fas fa-play-circle fa-2xl"></i>
+    <i class="fas fa-step-forward fa-lg"></i>
+    <i class="fas fa-redo fa-lg gray"></i>
+  </div>
   </top-bar>
-
-  <play_music class="playButton_blackBox s_b c">
-   
-    <div class="white width3 jc s_b">
-      <div></div>
-      <div></div>
-      <i class="fas fa-step-backward fa-lg"></i>
-      <i class="fas fa-stop-circle fa-lg"></i>
-      <i class="fas fa-step-forward fa-lg"></i>
-    </div>
-  </play_music>
+</div>
+ 
 
 
 
 <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
-<script src="js/resize.js"></script>
+
 </body>
 
 </html>

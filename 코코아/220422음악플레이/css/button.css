@@ -1,5 +1,5 @@
 .button {
-  width: 78vw;
+  width: 400px;
   margin: 7% 0px;
 }
 .button_black {
@@ -20,11 +20,11 @@
 .playButton_blackBox {
   display: flex;
   background-color: black;
-  width: 78vw;
-  height: 10vh;
+  width: 395px;
+  height: 100px;
   border-radius: 1000px;
   position: fixed;
-  top: 89vh;
+  top: 790px;
 }
 .jc {
   display: flex;
