@@ -2,7 +2,7 @@
   border-radius: 50%;
   object-fit: contain;
   width: 100px;
-  margin: 30px;
+ 
 }
 .photo_playlist {
   width: 65px;
@@ -14,7 +14,7 @@
 .photo_main {
   object-fit: contain;
   width: 60%;
-  margin: 15%;
+  margin: 50px;
   border-radius: 20px;
 }
 .photo_click {

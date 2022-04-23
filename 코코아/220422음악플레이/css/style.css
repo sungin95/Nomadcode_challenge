@@ -2,17 +2,20 @@
 @import "title.css";
 @import "button.css";
 @import "playlist.css";
-@import "animation.css";
 @import "click.css";
 
 body {
-  padding: 50px 50px;
-  width: 400px;
-  height: 1600px;
-  border: 1px solid black;
-  border-radius: 25px;
-  margin: auto;
+  width: 1350px;
+  height: 820px;
+  border-radius: 50px;
+  display: flex;
   background-color: antiquewhite;
+}
+.re {
+  position: relative;
+  background-color: white;
+  width: 450px;
+  border-radius: 30px;
 }
 .display_hidden {
   display: none;
@@ -23,14 +26,12 @@ body {
 .m_05 {
   margin: 0px 5px ;
 }
+
 .m_15 {
   margin: 0px 15px ;
 }
-.background {
-  display: block;
-
-  background-color: white;
-
+._space {
+  margin: 30px;
 }
 .shadow {
   box-shadow: 1px 10px 10px #afdcec;
@@ -41,7 +42,6 @@ body {
 .shadow_black {
   box-shadow: 1px 5px 10px rgb(0, 0, 0);
 }
-
 .label {
   cursor: pointer;
   color: red;
@@ -62,12 +62,7 @@ body {
 .d_f{
   flex-direction: column;
 }
-.fix {
-  position: fixed;
-  width: 400px;
-  z-index: 3;
-  height: 450px;
-}
+
 .width1 {
   width: 75px;
 }
@@ -80,9 +75,7 @@ body {
 .width4 {
   width: 90%;
 }
-.margin100 {
-  margin: 100px 0px;
-}
+
 /*https://musicmeta-phinf.pstatic.net/album/007/385/7385585.jpg?type=r360Fll&v=20220405155416
 톰보이 메인사진
 https://musicmeta-phinf.pstatic.net/artist/003/657/3657600.jpg?type=ff300_300&v=20220312100808
