@@ -16,8 +16,8 @@ body {
     height: 100%;
     display: grid;
     gap:10px;
-    grid-template-columns: repeat(30%);
-    grid-template-rows: repeat(10%) ;
+    /*grid-template-columns: repeat(30%);*/
+    /*grid-template-rows: repeat(10%) ;*/
     grid-template-areas: 
         "header header header header"
         "main  main2 main2 main2"
