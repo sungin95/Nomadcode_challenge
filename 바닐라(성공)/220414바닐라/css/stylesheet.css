@@ -1,0 +1,22 @@
+* {/*???*/
+  margin:0;
+  padding:0;
+}
+.body_container {
+  color : black
+}
+#title {
+  font-size : 64px;
+}
+.mouseover {
+  color:tomato
+}
+.mouseout{
+  color: green;
+}
+.mouseup {
+  color: blue;
+}
+.resize {
+  color: blueviolet;
+}

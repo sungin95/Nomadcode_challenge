@@ -1,0 +1,38 @@
+.delay_one {
+  animation-delay: 0.2s;
+}
+.delay_two {
+  animation-delay: 0.4s;
+}
+.square {
+  padding: 10px 3px;
+  background-color: white;
+}
+.square2 {
+  padding: 10px 3px;
+  background-color: rgba(0,0,0,0.3);
+}
+.chainge_scale {
+  animation: small_to_big 1.2s linear infinite;  
+}
+.chainge_scale:nth-child(3) {
+  animation-delay: 0.08s;
+}
+
+.chainge_scale:nth-child(5) {
+  animation-delay: 0.18s;
+}
+@keyframes small_to_big {
+  0% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
