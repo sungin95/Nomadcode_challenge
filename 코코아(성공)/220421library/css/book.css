@@ -1,0 +1,51 @@
+.book {
+  
+  width: 100%;
+  height: 25%;
+  padding: 13% 5%;
+}
+.book_title {
+  padding-bottom: 5%;
+}
+
+.book_img_space {
+  margin-right: 5%;
+}
+.book_now {
+  margin-top: 15%;
+  width: 170px;
+  height: 80px;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+}
+.book_yellow_circle{
+  width: 80px;
+  height: 80px;
+  background-color: #ffce33;
+  border-radius: 50%;
+  color: black;
+  margin-top: 15%;
+}
+.book_small_box{
+  width: 0px;
+  height: 0px;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid black;
+  border-left: 15px solid black;
+  border-right: 15px solid black;
+  border-radius: 7px;
+}
+/* 참고: https://css-tricks.com/the-shapes-of-css/*/
+
+.book_gry_box {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 4% 8%;
+}
+.book_aline_end{
+  align-items: flex-end;
+}
+.book_width {
+  width: 110%;
+}

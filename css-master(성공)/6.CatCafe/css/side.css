@@ -1,0 +1,48 @@
+.side{
+    width: 3%;/*img & side 합쳐서 99%*/
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #FE6A39;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.side-left_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 3px;
+    padding: 5px;
+}
+.side-left_box_90deg{
+    transform: rotate(-90deg);
+
+}
+.side-right_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3px;
+    padding: 5px;
+    text-align: center;
+    background-color: #543030;
+    color: #FFFFFF;
+    height: 50%;
+}
+.side-right_box1{
+    height: 70%;
+}
+.side-right_box2{
+    height: 100%;
+}
+
+.side-right_box3{
+    height: 10%;
+    justify-content: space-around;
+}
+
